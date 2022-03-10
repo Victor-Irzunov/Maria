@@ -41,9 +41,7 @@ document.addEventListener('scroll', () => {
 		maria.style.paddingBottom = '10px'
 		maria.style.opacity = '1'
 	}
-	if (scrollPosition < 450) {
-		aHome.classList.add('nav__active')
-	}
+	if (scrollPosition < 450) aHome.classList.add('nav__active')
 	if (scrollPosition > 1750) {
 		aHome.classList.remove('nav__active')
 		aService.classList.add('nav__active')
